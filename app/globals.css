@@ -7,6 +7,14 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+:root {
+  --font-alfa: "Alfa Slab One", serif;
+  --font-playfair: "Playfair Display", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -86,23 +94,23 @@
     animation: fadeIn 0.5s ease-out forwards;
     opacity: 0;
   }
-  
+
   .animate-in-delay {
     animation-delay: 0.2s;
   }
-  
+
   .slide-in-from-bottom {
     animation: slideInFromBottom 0.5s ease-out forwards;
     transform: translateY(20px);
     opacity: 0;
   }
-  
+
   .slide-in-from-left {
     animation: slideInFromLeft 0.5s ease-out forwards;
     transform: translateX(-50px);
     opacity: 0;
   }
-  
+
   .slide-in-from-right {
     animation: slideInFromRight 0.5s ease-out forwards;
     transform: translateX(50px);

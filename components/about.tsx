@@ -18,7 +18,7 @@ export default function About() {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5 }}
-            className="text-3xl sm:text-4xl font-serif font-semibold mb-4"
+            className="text-3xl sm:text-4xl   font-semibold mb-4"
           >
             About Me
           </motion.h2>
@@ -42,7 +42,7 @@ export default function About() {
             className="relative rounded-xl overflow-hidden aspect-square"
           >
             <Image
-              src="/profile.jpg"
+              src="/programmer.webp"
               alt="Mahmoud Harmouch"
               fill
               className="object-cover"
@@ -55,7 +55,7 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="space-y-6"
           >
-            <h3 className="text-2xl font-serif font-medium">Hello! I'm Mahmoud Harmouch</h3>
+            <h3 className="text-2xl   font-medium">Hello! I'm Mahmoud Harmouch</h3>
             <p className="text-muted-foreground">
               As a second-year English teacher trainee with a C1 proficiency level, I'm dedicated to making language learning engaging and effective. At 19 years old, I've already accumulated two years of valuable experience teaching high school students during my internships.
             </p>
@@ -66,25 +66,25 @@ export default function About() {
             <div className="pt-4">
               <h4 className="text-lg font-medium mb-3">Personal Details</h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <Card>
+                <Card className="cursor-pointer hover:border-slate-200 hover:bg-slate-300/10 duration-200">
                   <CardContent className="p-4">
                     <p className="text-sm font-medium">Age</p>
                     <p className="text-muted-foreground">19 Years</p>
                   </CardContent>
                 </Card>
-                <Card>
+                <Card className="cursor-pointer hover:border-slate-200 hover:bg-slate-300/10 duration-200">
                   <CardContent className="p-4">
                     <p className="text-sm font-medium">Education Level</p>
                     <p className="text-muted-foreground">Second Year</p>
                   </CardContent>
                 </Card>
-                <Card>
+                <Card className="cursor-pointer hover:border-slate-200 hover:bg-slate-300/10 duration-200">
                   <CardContent className="p-4">
                     <p className="text-sm font-medium">English Proficiency</p>
                     <p className="text-muted-foreground">C1 Level</p>
                   </CardContent>
                 </Card>
-                <Card>
+                <Card className="cursor-pointer hover:border-slate-200 hover:bg-slate-300/10 duration-200">
                   <CardContent className="p-4">
                     <p className="text-sm font-medium">Experience</p>
                     <p className="text-muted-foreground">2 Years Internship</p>

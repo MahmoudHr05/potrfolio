@@ -18,7 +18,7 @@ export default function CTA() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto text-center"
         >
-          <h2 className="text-3xl font-serif font-bold mb-6 text-primary-foreground">Ready to Collaborate?</h2>
+          <h2 className="text-3xl   font-bold mb-6 text-primary-foreground">Ready to Collaborate?</h2>
           <p className="text-primary-foreground/80 mb-8 max-w-xl mx-auto">
             Whether you're looking for an English teacher or have a teaching opportunity, 
             I'd love to hear from you. Let's connect and discuss how we can work together.
